@@ -5,7 +5,7 @@
       "type": "frame",
       "id": "gjbyt",
       "x": 0,
-      "y": 1,
+      "y": -1040,
       "name": "Cowork Main",
       "clip": true,
       "width": 1440,
@@ -1032,7 +1032,7 @@
       "type": "frame",
       "id": "XFA7m",
       "x": 0,
-      "y": 1000,
+      "y": 550,
       "name": "Cowork Scheduled",
       "clip": true,
       "width": 1440,
@@ -1769,8 +1769,8 @@
     {
       "type": "frame",
       "id": "DS0yi",
-      "x": 0,
-      "y": 3659,
+      "x": 1665,
+      "y": 2157,
       "name": "Remote Control Config",
       "clip": true,
       "width": 1440,
@@ -1801,9 +1801,9 @@
           "gap": 14,
           "padding": [
             0,
-            20,
+            16,
             12,
-            20
+            16
           ],
           "children": [
             {
@@ -1858,7 +1858,9 @@
               "id": "gfMwC",
               "name": "backRow",
               "width": "fill_container",
-              "gap": 8,
+              "cornerRadius": 6,
+              "gap": 10,
+              "padding": 8,
               "alignItems": "center",
               "children": [
                 {
@@ -1877,6 +1879,7 @@
                   "name": "backText",
                   "fill": "$foreground",
                   "content": "返回",
+                  "lineHeight": 1.5,
                   "fontFamily": "Noto Sans SC",
                   "fontSize": 16,
                   "fontWeight": "500"
@@ -1889,25 +1892,35 @@
               "name": "menuWrap",
               "width": "fill_container",
               "layout": "vertical",
-              "gap": 10,
+              "gap": 4,
               "children": [
                 {
                   "type": "frame",
                   "id": "tockg",
                   "name": "item1Frame",
                   "width": "fill_container",
-                  "cornerRadius": 12,
-                  "padding": [
-                    10,
-                    12
-                  ],
+                  "cornerRadius": 6,
+                  "gap": 10,
+                  "padding": 8,
+                  "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "OJ3iQ",
+                      "name": "icon1",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "user",
+                      "iconFontFamily": "lucide",
+                      "fill": "$muted-foreground"
+                    },
                     {
                       "type": "text",
                       "id": "NRLh5",
                       "name": "item1Text",
                       "fill": "$foreground",
                       "content": "账号",
+                      "lineHeight": 1.5,
                       "fontFamily": "Noto Sans SC",
                       "fontSize": 16,
                       "fontWeight": "normal"
@@ -1919,18 +1932,28 @@
                   "id": "7eGcJ",
                   "name": "item2Frame",
                   "width": "fill_container",
-                  "cornerRadius": 12,
-                  "padding": [
-                    10,
-                    12
-                  ],
+                  "cornerRadius": 6,
+                  "gap": 10,
+                  "padding": 8,
+                  "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "sDZJU",
+                      "name": "icon2",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "cpu",
+                      "iconFontFamily": "lucide",
+                      "fill": "$muted-foreground"
+                    },
                     {
                       "type": "text",
                       "id": "CmcYx",
                       "name": "item2Text",
                       "fill": "$foreground",
                       "content": "模型",
+                      "lineHeight": 1.5,
                       "fontFamily": "Noto Sans SC",
                       "fontSize": 16,
                       "fontWeight": "normal"
@@ -1943,18 +1966,28 @@
                   "name": "activeItem",
                   "width": "fill_container",
                   "fill": "$accent",
-                  "cornerRadius": 12,
-                  "padding": [
-                    10,
-                    12
-                  ],
+                  "cornerRadius": 6,
+                  "gap": 10,
+                  "padding": 8,
+                  "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "eFjCi",
+                      "name": "icon3",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "radio",
+                      "iconFontFamily": "lucide",
+                      "fill": "$muted-foreground"
+                    },
                     {
                       "type": "text",
                       "id": "Ow9JP",
                       "name": "activeItemText",
                       "fill": "$foreground",
                       "content": "远程控制",
+                      "lineHeight": 1.5,
                       "fontFamily": "Noto Sans SC",
                       "fontSize": 16,
                       "fontWeight": "600"
@@ -2670,7 +2703,7 @@
       "type": "frame",
       "id": "SgyV3",
       "x": 0,
-      "y": 2348,
+      "y": 2157,
       "name": "Cowork Skills",
       "clip": true,
       "width": 1440,
@@ -4174,7 +4207,7 @@
       "type": "frame",
       "id": "svXv2",
       "x": 1665,
-      "y": 0,
+      "y": -1040,
       "name": "Cowork Task",
       "clip": true,
       "width": 1440,
@@ -5818,7 +5851,7 @@
       "type": "frame",
       "id": "6zkzU",
       "x": 1665,
-      "y": 1000,
+      "y": 550,
       "name": "Cowork Scheduled - New Task",
       "clip": true,
       "width": 1440,
@@ -7058,8 +7091,8 @@
     {
       "type": "frame",
       "id": "xnykI",
-      "x": 3400,
-      "y": 1000,
+      "x": 3333,
+      "y": 550,
       "name": "Cowork Scheduled - Task List",
       "clip": true,
       "width": 1440,
@@ -8064,8 +8097,8 @@
     {
       "type": "frame",
       "id": "8vmWY",
-      "x": 3400,
-      "y": 0,
+      "x": 3333,
+      "y": -1040,
       "name": "Cowork Task - Artifact",
       "clip": true,
       "width": 1440,
@@ -9215,15 +9248,1759 @@
     },
     {
       "type": "frame",
-      "id": "vC6H3",
-      "x": 417,
-      "y": 2205,
-      "name": "Frame 1",
+      "id": "thpBc",
+      "x": 5033,
+      "y": 550,
+      "name": "Cowork Scheduled - Execution",
       "clip": true,
-      "width": 48,
-      "height": 27,
-      "fill": "#FFFFFF",
-      "layout": "none"
+      "width": 1440,
+      "height": 900,
+      "fill": "#f0f0ef",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Fvv70",
+          "name": "Bottom Row",
+          "width": "fill_container",
+          "height": "fill_container",
+          "padding": [
+            8,
+            8,
+            8,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "qa53k",
+              "name": "Sidebar",
+              "width": 260,
+              "height": "fill_container",
+              "fill": "#F0F0EF00",
+              "layout": "vertical",
+              "padding": [
+                0,
+                16,
+                12,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iLJyX",
+                  "name": "Traffic Lights",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "padding": [
+                    6,
+                    8,
+                    10,
+                    8
+                  ],
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bCtJx",
+                      "name": "Dots Group",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "TLy7k",
+                          "name": "dotR",
+                          "fill": "#FF5F57",
+                          "width": 12,
+                          "height": 12
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "t3koH",
+                          "name": "dotY",
+                          "fill": "#FEBC2E",
+                          "width": 12,
+                          "height": 12
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "GYSCj",
+                          "name": "dotG",
+                          "fill": "#28C840",
+                          "width": 12,
+                          "height": 12
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "S5mu3",
+                      "name": "collapse",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "panel-left-close",
+                      "iconFontFamily": "lucide",
+                      "fill": "$muted-foreground"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JDl89",
+                  "name": "Nav Section",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ioCTb",
+                      "name": "Nav New Task",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "gap": 10,
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "cKtMh",
+                          "name": "navNewIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "plus",
+                          "iconFontFamily": "lucide",
+                          "fill": "$foreground"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m7eRw",
+                          "name": "navNewText",
+                          "fill": "$foreground",
+                          "content": "新任务",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aRr1l",
+                      "name": "Nav Timer",
+                      "width": "fill_container",
+                      "fill": "$accent",
+                      "cornerRadius": 6,
+                      "gap": 10,
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "LOTtO",
+                          "name": "navTimerIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "calendar-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4bov1",
+                          "name": "navTimerText",
+                          "fill": "$foreground",
+                          "content": "定时任务",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YtcF4",
+                      "name": "Nav Skill",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "gap": 10,
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "XjAeM",
+                          "name": "navSkillIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "shapes",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c4LNQ",
+                          "name": "navSkillText",
+                          "fill": "$foreground",
+                          "content": "技能",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UjKZ2",
+                      "name": "Nav Connector",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "gap": 10,
+                      "padding": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "EGy1t",
+                          "name": "navConnIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "plug",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted-foreground"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OqNjL",
+                          "name": "navConnText",
+                          "fill": "$foreground",
+                          "content": "连接器",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KqHQj",
+                  "name": "Divider Area",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    8,
+                    4,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MWcdt",
+                      "name": "divLabel",
+                      "fill": "$muted-foreground",
+                      "content": "定时任务",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fMPIG",
+                  "name": "Task History",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GAO17",
+                      "name": "headerRow",
+                      "width": "fill_container",
+                      "gap": 4,
+                      "padding": [
+                        6,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "7NUgw",
+                          "name": "headerTxt",
+                          "fill": "$foreground",
+                          "content": "每日新闻",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "y1sYF",
+                          "name": "chevIcon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "chevron-down",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted-foreground"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rhe0g",
+                      "name": "item1",
+                      "width": "fill_container",
+                      "fill": "$accent",
+                      "cornerRadius": 6,
+                      "padding": [
+                        6,
+                        8,
+                        6,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1oEgX",
+                          "name": "t1",
+                          "fill": "$foreground",
+                          "content": "3月20日 – 每日新闻",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u0RvX",
+                      "name": "item2",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "padding": [
+                        6,
+                        8,
+                        6,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZOtiM",
+                          "name": "t2",
+                          "fill": "$muted-foreground",
+                          "content": "3月19日 – 每日新闻",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sZDae",
+                      "name": "item3",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "padding": [
+                        6,
+                        8,
+                        6,
+                        28
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "b7SfP",
+                          "name": "t3",
+                          "fill": "$muted-foreground",
+                          "content": "3月18日 – 每日新闻",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hVhLw",
+                      "name": "recentDiv",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        20,
+                        8,
+                        4,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jXK0B",
+                          "name": "rlabel",
+                          "fill": "$muted-foreground",
+                          "content": "最近任务",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sx9Fv",
+                      "name": "dispatchItem",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "padding": [
+                        6,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZUR4S",
+                          "name": "dispTxt",
+                          "fill": "$muted-foreground",
+                          "content": "扫描下载目录大文件",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "okYOs",
+                      "name": "r1",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "padding": [
+                        6,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yfZ4i",
+                          "name": "r1t",
+                          "fill": "$muted-foreground",
+                          "content": "整理本周会议纪要并归档",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vhk3c",
+                      "name": "r2",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "padding": [
+                        6,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1YEv0",
+                          "name": "r2t",
+                          "fill": "$muted-foreground",
+                          "content": "生成Q2季度销售数据报表",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vrN4c",
+                  "name": "Account Bar",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    8
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3FkkX",
+                      "name": "avatar",
+                      "width": 36,
+                      "height": 36,
+                      "fill": "$primary",
+                      "cornerRadius": 18,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jiqNY",
+                          "x": 11,
+                          "y": 8,
+                          "name": "avatarTxt",
+                          "fill": "$primary-foreground",
+                          "content": "李",
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VzGZy",
+                      "name": "accountInfo",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zWVSP",
+                          "name": "acctName",
+                          "fill": "$foreground",
+                          "content": "李明",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cAKMH",
+                          "name": "acctEmail",
+                          "fill": "$muted-foreground",
+                          "content": "科大讯飞",
+                          "lineHeight": 1.3,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FKDM1",
+              "name": "Right Area",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$background",
+              "cornerRadius": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jXJjs",
+                  "name": "Chat Column",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": "$background",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hlFmD",
+                      "name": "Task Header",
+                      "width": "fill_container",
+                      "height": 52,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$border"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Hpw9Y",
+                          "name": "taskTitle",
+                          "fill": "$foreground",
+                          "content": "3月20日 – 每日新闻",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon_font",
+                          "id": "OM5ft",
+                          "name": "taskChev",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "chevron-down",
+                          "iconFontFamily": "lucide",
+                          "fill": "$muted-foreground"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Kn6Dj",
+                      "name": "Chat Area",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 24,
+                      "padding": [
+                        32,
+                        40,
+                        20,
+                        40
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "3mHZD",
+                          "name": "banner",
+                          "width": "fill_container",
+                          "fill": "$secondary",
+                          "cornerRadius": 12,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border"
+                          },
+                          "gap": 12,
+                          "padding": [
+                            14,
+                            20
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "V6W7I",
+                              "name": "bannerIcon",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "timer",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KrB2f",
+                              "name": "bannerTxt",
+                              "fill": "$foreground",
+                              "content": "执行定时任务：每日新闻",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "kyXxH",
+                              "name": "bannerChev",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NES7W",
+                          "name": "step1",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "FapLE",
+                              "name": "s1txt",
+                              "fill": "$muted-foreground",
+                              "content": "已更新待办列表、搜索网页、读取文件",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "7hVzl",
+                              "name": "s1chev",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "chevron-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "BXjoK",
+                          "name": "aiText1",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "现在让我将每日新闻报告创建为 Markdown 文件。",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yeXV8",
+                          "name": "step2",
+                          "width": "fill_container",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LSxLP",
+                              "name": "s2txt",
+                              "fill": "$muted-foreground",
+                              "content": "已创建文件、更新待办列表、读取文件",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "bPMsz",
+                              "name": "s2chev",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "chevron-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "PCdnK",
+                          "name": "aiTitle",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "今日中美 AI 热点 Top 10 已整理完毕！",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lKabQ",
+                          "name": "aiBody1",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "美国亮点：AMI Labs 完成 10.3 亿美元种子轮（AI 史上最大）、GPT-5.4 发布、ChatGPT 周活达 9 亿、Meta 四代自研芯片路线图、Anthropic 遭五角大楼黑名单事件。",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vfBzY",
+                          "name": "aiBody2",
+                          "fill": "$foreground",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "中国亮点：中国 API 调用量首超美国、\"十五五\"规划定 AI 产业 10 万亿目标、AI 智能体岗位需求暴涨 455%、八部门\"人工智能+制造\"行动、OPC 一人公司模式兴起。",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KNODN",
+                          "name": "linkWrap",
+                          "width": "fill_container",
+                          "padding": [
+                            4,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "EPNt9",
+                              "name": "linkTxt",
+                              "fill": "#2563EB",
+                              "content": "查看完整日报",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6mM0s",
+                          "name": "srcWrap",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "P2nW8",
+                              "name": "srcTitle",
+                              "fill": "$foreground",
+                              "content": "Sources：",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KNW7z",
+                              "name": "srcList",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "padding": [
+                                0,
+                                0,
+                                0,
+                                8
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "pKZ2e",
+                                  "name": "s1",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    2,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "JZOnS",
+                                      "name": "s1dot",
+                                      "fill": "$muted-foreground",
+                                      "content": "•",
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "RzA0Z",
+                                      "name": "s1link",
+                                      "fill": "#2563EB",
+                                      "content": "Tech Startups - Top Tech News March 19, 2026",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "OYaRX",
+                                  "name": "s2",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    2,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "DaLkI",
+                                      "name": "s2dot",
+                                      "fill": "$muted-foreground",
+                                      "content": "•",
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "pyoSs",
+                                      "name": "s2link",
+                                      "fill": "#2563EB",
+                                      "content": "Crescendo AI - Latest AI News",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "bgaf2",
+                                  "name": "s3",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    2,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "aHdGd",
+                                      "name": "s3dot",
+                                      "fill": "$muted-foreground",
+                                      "content": "•",
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "cJYf9",
+                                      "name": "s3link",
+                                      "fill": "#2563EB",
+                                      "content": "LLM Stats - AI News March 2026",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "7ClK0",
+                                  "name": "s4",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    2,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "zFvgg",
+                                      "name": "s4dot",
+                                      "fill": "$muted-foreground",
+                                      "content": "•",
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "5bpx0",
+                                      "name": "s4link",
+                                      "fill": "#2563EB",
+                                      "content": "中新网 - 中国AI首次超越美国",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "0D87x",
+                                  "name": "s5",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    2,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "kts70",
+                                      "name": "s5dot",
+                                      "fill": "$muted-foreground",
+                                      "content": "•",
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Avyhc",
+                                      "name": "s5link",
+                                      "fill": "#2563EB",
+                                      "content": "新华网 - 2026年中国AI发展趋势前瞻",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "6qPS1",
+                                  "name": "s6",
+                                  "width": "fill_container",
+                                  "gap": 6,
+                                  "padding": [
+                                    2,
+                                    0
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "uPRVZ",
+                                      "name": "s6dot",
+                                      "fill": "$muted-foreground",
+                                      "content": "•",
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "19z2k",
+                                      "name": "s6link",
+                                      "fill": "#2563EB",
+                                      "content": "清华大学 - 2026年中国AI发展趋势",
+                                      "lineHeight": 1.5,
+                                      "fontFamily": "Noto Sans SC",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fuRc5",
+                      "name": "Reply Area",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        16,
+                        24,
+                        20,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dtAPP",
+                          "name": "Reply Card",
+                          "width": 680,
+                          "fill": "$background",
+                          "cornerRadius": 16,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border"
+                          },
+                          "effect": {
+                            "type": "shadow",
+                            "shadowType": "outer",
+                            "color": "#0000000A",
+                            "offset": {
+                              "x": 0,
+                              "y": 2
+                            },
+                            "blur": 6
+                          },
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": [
+                            16,
+                            20
+                          ],
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "9qPiR",
+                              "name": "replyPlaceholder",
+                              "fill": "$muted-foreground",
+                              "content": "回复...",
+                              "lineHeight": 1.2,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JgIV4",
+                              "name": "Reply Controls",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "xm5mE",
+                                  "name": "Left",
+                                  "gap": 12,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "ewz1D",
+                                      "name": "plusBtn",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "plus",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "$muted-foreground"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "XUmWn",
+                                  "name": "Right",
+                                  "gap": 14,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "qSj8s",
+                                      "name": "Model Select",
+                                      "fill": "$secondary",
+                                      "cornerRadius": 8,
+                                      "gap": 6,
+                                      "padding": [
+                                        6,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "y6XsA",
+                                          "name": "modelText",
+                                          "fill": "$muted-foreground",
+                                          "content": "Opus 4.6",
+                                          "fontFamily": "Noto Sans SC",
+                                          "fontSize": 12,
+                                          "fontWeight": "normal"
+                                        },
+                                        {
+                                          "type": "icon_font",
+                                          "id": "1WILs",
+                                          "name": "modelChev",
+                                          "width": 12,
+                                          "height": 12,
+                                          "iconFontName": "chevron-down",
+                                          "iconFontFamily": "lucide",
+                                          "fill": "$muted-foreground"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "icon_font",
+                                      "id": "QgMx5",
+                                      "name": "micIcon",
+                                      "width": 20,
+                                      "height": 20,
+                                      "iconFontName": "mic",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "$muted-foreground"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3awJc",
+                  "name": "Right Panel",
+                  "width": 280,
+                  "height": "fill_container",
+                  "fill": "$secondary",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "left": 1
+                    },
+                    "fill": "$border"
+                  },
+                  "layout": "vertical",
+                  "padding": [
+                    20,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PImv4",
+                      "name": "Progress Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        0,
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "DFYI3",
+                          "name": "Progress Header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LgX3O",
+                              "name": "progTitle",
+                              "fill": "$foreground",
+                              "content": "进度",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "qP85x",
+                              "name": "progChev",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bTZVD",
+                          "name": "Task List",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "1XeAD",
+                              "name": "Task Item 1",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "padding": [
+                                3,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "mG3WF",
+                                  "name": "Check",
+                                  "width": 20,
+                                  "height": 20,
+                                  "fill": "#2563EB",
+                                  "cornerRadius": 10,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "DyoZO",
+                                      "x": 4,
+                                      "y": 4,
+                                      "name": "t1icon",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "$background"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "6QDb2",
+                                  "name": "t1txt",
+                                  "fill": "$muted-foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "搜索美国 AI 热点新闻",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Noto Sans SC",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Y0p5P",
+                              "name": "Task Item 2",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "padding": [
+                                3,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "9ULzA",
+                                  "name": "t2chk",
+                                  "width": 20,
+                                  "height": 20,
+                                  "fill": "#2563EB",
+                                  "cornerRadius": 10,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "2HhiO",
+                                      "x": 4,
+                                      "y": 4,
+                                      "name": "t2icon",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "$background"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Wk9Td",
+                                  "name": "t2txt",
+                                  "fill": "$muted-foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "搜索中国 AI 热点新闻",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Noto Sans SC",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "2MpRO",
+                              "name": "Task Item 3",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "padding": [
+                                3,
+                                0
+                              ],
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "rzcCS",
+                                  "name": "t3chk",
+                                  "width": 20,
+                                  "height": 20,
+                                  "fill": "#2563EB",
+                                  "cornerRadius": 10,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "wNaox",
+                                      "x": 4,
+                                      "y": 4,
+                                      "name": "t3icon",
+                                      "width": 12,
+                                      "height": 12,
+                                      "iconFontName": "check",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "$background"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "iWrfY",
+                                  "name": "t3txt",
+                                  "fill": "$muted-foreground",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "汇总并创建每日新闻报告",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Noto Sans SC",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "fPc1Q",
+                      "name": "Divider",
+                      "fill": "$border",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ajS1U",
+                      "name": "Folder Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        4,
+                        0,
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iQ7qn",
+                          "name": "Folder Header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YxN7s",
+                              "name": "folderTitle",
+                              "fill": "$foreground",
+                              "content": "工作文件夹",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QSmC1",
+                              "name": "Folder Actions",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "hxDJS",
+                                  "name": "folderCopy",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "square",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$muted-foreground"
+                                },
+                                {
+                                  "type": "icon_font",
+                                  "id": "loJSE",
+                                  "name": "folderChev",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "chevron-down",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$muted-foreground"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1zRG5",
+                          "name": "File Item",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "padding": [
+                            4,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "ClCYv",
+                              "name": "fileIcon",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "file-text",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Y9oUr",
+                              "name": "fileName",
+                              "fill": "$foreground",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "dailynews-2026-03-20.md",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 12.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RhDDQ",
+                          "name": "Scratchpad",
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "aeik0",
+                              "name": "scratchChev",
+                              "width": 14,
+                              "height": 14,
+                              "iconFontName": "chevron-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "text",
+                              "id": "kCtzG",
+                              "name": "scratchText",
+                              "fill": "$muted-foreground",
+                              "content": "草稿本",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 12.5,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "OQLJ2",
+                      "name": "Divider",
+                      "fill": "$border",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iilYa",
+                      "name": "Context Section",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        4,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "eo9DH",
+                          "name": "Context Header",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dmKib",
+                              "name": "ctxTitle",
+                              "fill": "$foreground",
+                              "content": "上下文",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "A4KWe",
+                              "name": "ctxChev",
+                              "width": 16,
+                              "height": 16,
+                              "iconFontName": "chevron-down",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Hy5IL",
+                          "name": "connLabel",
+                          "fill": "$muted-foreground",
+                          "content": "连接器",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "N2ehq",
+                          "name": "Connector List",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "3wXtV",
+                              "name": "Conn Email",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "padding": [
+                                4,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "cMIEF",
+                                  "name": "conn1icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "calendar-check",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$muted-foreground"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "96CVg",
+                                  "name": "conn1text",
+                                  "fill": "$foreground",
+                                  "content": "每日新闻",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Noto Sans SC",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "5knyi",
+                              "name": "Conn Calendar",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "padding": [
+                                4,
+                                0
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "eEvKr",
+                                  "name": "conn2icon",
+                                  "width": 16,
+                                  "height": 16,
+                                  "iconFontName": "globe",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$muted-foreground"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Hhfr8",
+                                  "name": "conn2text",
+                                  "fill": "$foreground",
+                                  "content": "网页搜索",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "Noto Sans SC",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {
