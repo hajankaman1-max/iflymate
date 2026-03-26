@@ -34105,6 +34105,703 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "Dmou4",
+      "x": -1718,
+      "y": -1040,
+      "name": "Login Page",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "$background",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Ywc7P",
+          "x": 0,
+          "y": 0,
+          "name": "Left Brand Panel",
+          "width": 600,
+          "height": 900,
+          "fill": "$foreground",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 60,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ijcSS",
+              "name": "logoFrame",
+              "width": 72,
+              "height": 72,
+              "fill": "$background",
+              "cornerRadius": 18,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "pBVZv",
+                  "x": 18,
+                  "y": 18,
+                  "name": "logoIcon",
+                  "width": 36,
+                  "height": 36,
+                  "iconFontName": "bot",
+                  "iconFontFamily": "lucide",
+                  "fill": "$foreground"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "NMcbC",
+              "name": "productName",
+              "fill": "$primary-foreground",
+              "content": "iFlyMate",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "UEOAH",
+              "name": "tagline",
+              "fill": "#fafafaB3",
+              "content": "不止聊天，搞定任务",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "N0uaI",
+              "name": "featuresContainer",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lA4P2",
+                  "name": "feat1",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fVOWG",
+                      "name": "feat1IconBg",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#ffffff15",
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "jlvms",
+                          "x": 10,
+                          "y": 10,
+                          "name": "feat1Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "zap",
+                          "iconFontFamily": "lucide",
+                          "fill": "#fafafaCC"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yk671",
+                      "name": "feat1Text",
+                      "fill": "#fafafaCC",
+                      "content": "AI 驱动的智能任务执行",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RPX0u",
+                  "name": "feat2",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MJIgN",
+                      "name": "feat2IconBg",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#ffffff15",
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "3ltgc",
+                          "x": 10,
+                          "y": 10,
+                          "name": "feat2Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "layout-grid",
+                          "iconFontFamily": "lucide",
+                          "fill": "#fafafaCC"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "68H02",
+                      "name": "feat2Text",
+                      "fill": "#fafafaCC",
+                      "content": "多工作区协同管理",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OLEQl",
+                  "name": "feat3",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "xdS7n",
+                      "name": "feat3IconBg",
+                      "width": 40,
+                      "height": 40,
+                      "fill": "#ffffff15",
+                      "cornerRadius": 10,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "4L3TJ",
+                          "x": 10,
+                          "y": 10,
+                          "name": "feat3Icon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "shield-check",
+                          "iconFontFamily": "lucide",
+                          "fill": "#fafafaCC"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "g27yN",
+                      "name": "feat3Text",
+                      "fill": "#fafafaCC",
+                      "content": "企业级安全与权限控制",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "9EJ3V",
+              "name": "copyright",
+              "fill": "#fafafa80",
+              "content": "© 2026 科大讯飞 iFlyMate",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "uFx68",
+          "x": 600,
+          "y": 0,
+          "name": "Right Form Panel",
+          "width": 840,
+          "height": 900,
+          "fill": "$background",
+          "layout": "vertical",
+          "padding": [
+            60,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "PFHQS",
+              "name": "Form Container",
+              "width": 420,
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i0uRM",
+                  "name": "Form Header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DAy7m",
+                      "name": "welcomeText",
+                      "fill": "$foreground",
+                      "content": "欢迎回来",
+                      "lineHeight": 1.3,
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YAq3J",
+                      "name": "welcomeSub",
+                      "fill": "$muted-foreground",
+                      "content": "登录你的 iFlyMate 账户，开始智能工作",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j1Ulx",
+                  "name": "Form Fields",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fL3As",
+                      "name": "Email Field",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "y1ak1",
+                          "name": "label1",
+                          "fill": "$foreground",
+                          "content": "邮箱 / 账号",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vo3Tr",
+                          "name": "Input",
+                          "width": "fill_container",
+                          "fill": "$background",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border"
+                          },
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "HHip0",
+                              "name": "input1Icon",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "mail",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lGg7W",
+                              "name": "input1Text",
+                              "fill": "$muted-foreground",
+                              "content": "请输入邮箱或账号",
+                              "lineHeight": 1.5,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YJWOc",
+                      "name": "Password Field",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UILAP",
+                          "name": "label2",
+                          "fill": "$foreground",
+                          "content": "密码",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U5MZs",
+                          "name": "Input",
+                          "width": "fill_container",
+                          "fill": "$background",
+                          "cornerRadius": 8,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$border"
+                          },
+                          "padding": [
+                            12,
+                            14
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KEB3S",
+                              "name": "Input Left",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "SibHw",
+                                  "name": "input2Icon",
+                                  "width": 18,
+                                  "height": 18,
+                                  "iconFontName": "lock",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "$muted-foreground"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Oc2jD",
+                                  "name": "input2Text",
+                                  "fill": "$muted-foreground",
+                                  "content": "请输入密码",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "Noto Sans SC",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "QmiAn",
+                              "name": "input2Eye",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "eye-off",
+                              "iconFontFamily": "lucide",
+                              "fill": "$muted-foreground"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hhjUe",
+                      "name": "Options Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JosLE",
+                          "name": "Remember Me",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "sMn0V",
+                              "name": "Checkbox",
+                              "width": 18,
+                              "height": 18,
+                              "fill": "$background",
+                              "cornerRadius": 4,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1.5,
+                                "fill": "$border"
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "id": "2VKd4",
+                              "name": "rememberText",
+                              "fill": "$muted-foreground",
+                              "content": "记住我",
+                              "lineHeight": 1.4,
+                              "fontFamily": "Noto Sans SC",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rhhdN",
+                          "name": "forgotPwd",
+                          "fill": "$chart-2",
+                          "content": "忘记密码？",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lZCdi",
+                  "name": "Actions Area",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9vgOF",
+                      "name": "Login Button",
+                      "width": "fill_container",
+                      "fill": "$foreground",
+                      "cornerRadius": 10,
+                      "gap": 8,
+                      "padding": [
+                        14,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "GuREl",
+                          "name": "loginBtnIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "log-in",
+                          "iconFontFamily": "lucide",
+                          "fill": "$primary-foreground"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QVgxe",
+                          "name": "loginBtnText",
+                          "fill": "$primary-foreground",
+                          "content": "登录",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fvvVp",
+                      "name": "Divider Row",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "jaDmB",
+                          "name": "Line",
+                          "fill": "$border",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "LqXp9",
+                          "name": "divText",
+                          "fill": "$muted-foreground",
+                          "content": "或",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "9ePHY",
+                          "name": "Line",
+                          "fill": "$border",
+                          "width": "fill_container",
+                          "height": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "io8uy",
+                      "name": "SSO Button",
+                      "width": "fill_container",
+                      "fill": "$background",
+                      "cornerRadius": 10,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border"
+                      },
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "l5U0F",
+                          "name": "ssoBtnIcon",
+                          "width": 18,
+                          "height": 18,
+                          "iconFontName": "building",
+                          "iconFontFamily": "lucide",
+                          "fill": "$foreground"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c4my1",
+                          "name": "ssoBtnText",
+                          "fill": "$foreground",
+                          "content": "企业 SSO 登录",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "5AcZ9",
+                  "name": "Footer",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "8yGt4",
+                      "name": "footerText",
+                      "fill": "$muted-foreground",
+                      "content": "还没有账户？联系管理员获取邀请",
+                      "lineHeight": 1.4,
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kRcta",
+                      "name": "Terms",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wT1GP",
+                          "name": "termsText1",
+                          "fill": "$muted-foreground",
+                          "content": "登录即表示同意",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yLveV",
+                          "name": "termsLink1",
+                          "fill": "$chart-2",
+                          "content": "服务条款",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "sEbSA",
+                          "name": "termsText2",
+                          "fill": "$muted-foreground",
+                          "content": "和",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vMpUl",
+                          "name": "termsLink2",
+                          "fill": "$chart-2",
+                          "content": "隐私政策",
+                          "lineHeight": 1.4,
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {

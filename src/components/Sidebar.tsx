@@ -1,7 +1,7 @@
-import { Plus, CalendarCheck, Shapes, Plug } from 'lucide-react'
+import { Plus, CalendarCheck, Shapes, Plug, Briefcase } from 'lucide-react'
 import { WindowControls } from './WindowControls'
 
-type NavKey = 'new' | 'scheduled' | 'skills' | 'connector'
+type NavKey = 'new' | 'scheduled' | 'workspace' | 'skills' | 'connector'
 
 interface SidebarProps {
   activeItem?: NavKey
@@ -18,6 +18,7 @@ export function Sidebar({ activeItem = 'new', onNavigate }: SidebarProps) {
   const navItems: { key: NavKey; icon: React.ReactNode; label: string; bold?: boolean }[] = [
     { key: 'new', icon: <Plus size={18} className="text-[#0a0a0a]" />, label: '新任务', bold: true },
     { key: 'scheduled', icon: <CalendarCheck size={18} className="text-[#737373]" />, label: '定时任务' },
+    { key: 'workspace', icon: <Briefcase size={18} className="text-[#737373]" />, label: '工作区' },
     { key: 'skills', icon: <Shapes size={18} className="text-[#737373]" />, label: '技能' },
     { key: 'connector', icon: <Plug size={18} className="text-[#737373]" />, label: '连接器' },
   ]

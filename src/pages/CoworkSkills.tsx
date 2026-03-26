@@ -1,35 +1,31 @@
-import { Search, Plus, FolderOpen, Presentation, Search as SearchIcon, Table, FileText, Palette, Image, Cloud, FileCheck } from 'lucide-react'
+import { Search, Plus } from 'lucide-react'
 import { Sidebar } from '../components/Sidebar'
 
 interface CoworkSkillsProps {
   onNavigate?: (key: string) => void
 }
 
-const tabs = ['全部', '办公提效', '内容创作', '数据分析', '研究学习', '设计开发']
+const tabs = ['全部', '办公提效', '产品研发', '营销售前', '合规法务', '财务管理', '供应链', '人力资源']
 
-interface SkillCard {
-  icon: React.ReactNode
-  iconBg: string
-  title: string
-  desc: string
-}
-
-const skillRows: SkillCard[][] = [
-  [
-    { icon: <FolderOpen size={22} className="text-[#4285F4]" />, iconBg: '#E8F0FE', title: '文件整理', desc: '智能整理和归类你的文件' },
-    { icon: <Presentation size={22} className="text-[#FB8C00]" />, iconBg: '#FFF3E0', title: 'PPT演示专家', desc: '快速创建精美的演示文稿' },
-    { icon: <SearchIcon size={22} className="text-[#4CAF50]" />, iconBg: '#E8F5E9', title: '深度研究助手', desc: '深入研究任何主题并生成报告' },
-  ],
-  [
-    { icon: <Table size={22} className="text-[#43A047]" />, iconBg: '#E8F5E9', title: 'Excel表格专家', desc: '处理和分析Excel数据' },
-    { icon: <FileText size={22} className="text-[#E53935]" />, iconBg: '#FFEBEE', title: 'PDF处理专家', desc: 'PDF转换、合并和编辑' },
-    { icon: <Palette size={22} className="text-[#7E57C2]" />, iconBg: '#EDE7F6', title: '前端设计大师', desc: '快速设计精美的前端界面' },
-  ],
-  [
-    { icon: <Image size={22} className="text-[#E91E63]" />, iconBg: '#FCE4EC', title: '小红书卡片生成', desc: '一键生成精美小红书图文' },
-    { icon: <Cloud size={22} className="text-[#F9A825]" />, iconBg: '#FFF8E1', title: 'Cloudflare部署', desc: '快速部署应用到Cloudflare' },
-    { icon: <FileCheck size={22} className="text-[#1976D2]" />, iconBg: '#E3F2FD', title: 'Word文档专家', desc: '专业的Word文档编辑和排版' },
-  ],
+const skills = [
+  { icon: '📊', title: '智能表格处理', desc: '一键处理 Excel 数据报表，公式推导、格式优化与数据透视' },
+  { icon: '📑', title: '演示文稿生成', desc: '根据主题自动生成专业 PPT，支持多种行业模板' },
+  { icon: '📝', title: '会议纪要生成', desc: '自动整理会议内容，提取关键决策与行动计划' },
+  { icon: '📋', title: 'PRD 自动生成', desc: '基于需求描述生成标准产品需求文档，关联历史变更记录' },
+  { icon: '🔍', title: '竞品监控分析', desc: '自动采集竞品动态，生成多维度对比报告与策略建议' },
+  { icon: '✉️', title: '邮件智能撰写', desc: '根据场景自动起草商务邮件，支持多语言翻译与润色' },
+  { icon: '📦', title: '方案组装生成', desc: '根据客户 RFP 自动组装解决方案，关联历史成功案例' },
+  { icon: '⚖️', title: '合同条款审查', desc: '智能识别合同风险条款，提供修改建议与合规意见' },
+  { icon: '📈', title: '招股书生成', desc: '基于项目上下文分章节生成招股书草稿，自动交叉引用' },
+  { icon: '🔢', title: '自动对账核验', desc: '跨系统财务数据自动比对，快速定位差异和错误' },
+  { icon: '📉', title: '数据报表生成', desc: '从原始数据自动生成可视化报表，附同比环比分析' },
+  { icon: '📦', title: '库存预警分析', desc: '实时监控库存水位，自动触发补货建议与异常预警' },
+  { icon: '👥', title: '人才盘点报告', desc: '自动汇总人才数据，生成九宫格盘点与发展建议' },
+  { icon: '🤝', title: '供应商评估比价', desc: '多维度对比供应商报价与资质，辅助采购决策' },
+  { icon: '📰', title: '研报自动生成', desc: '基于数据与文献自动撰写行业研究报告' },
+  { icon: '🧾', title: '税务合规计算', desc: '自动计算增值税、所得税，生成纳税申报建议' },
+  { icon: '📄', title: '标书智能撰写', desc: '根据招标文件自动生成投标方案与应答内容' },
+  { icon: '🗂️', title: '文档智能摘要', desc: '快速提取长文档核心要点，生成结构化摘要' },
 ]
 
 export function CoworkSkills({ onNavigate }: CoworkSkillsProps) {
@@ -39,19 +35,17 @@ export function CoworkSkills({ onNavigate }: CoworkSkillsProps) {
         <Sidebar activeItem="skills" onNavigate={onNavigate as any} />
 
         <div className="flex-1 bg-white rounded-2xl flex flex-col overflow-hidden h-full p-8 gap-5">
-          {/* Header Row */}
+          {/* Header */}
           <div className="flex items-center justify-between w-full">
             <div className="flex flex-col gap-1">
               <h1 className="text-2xl font-bold text-[#0a0a0a] font-['Noto_Sans_SC']">技能</h1>
-              <p className="text-sm text-[#737373] font-['Noto_Sans_SC']">浏览和安装AI技能，提升你的工作效率</p>
+              <p className="text-sm text-[#737373] font-['Noto_Sans_SC']">赋能 AI 更强大的能力</p>
             </div>
             <div className="flex items-center gap-3">
-              {/* Search */}
               <div className="flex items-center gap-2 bg-[#f5f5f5] rounded-lg px-3 h-9 w-[220px]">
                 <Search size={16} className="text-[#737373]" />
                 <span className="text-[13px] text-[#737373] font-['Noto_Sans_SC']">搜索技能...</span>
               </div>
-              {/* Install Button */}
               <button className="flex items-center gap-1.5 bg-[#0a0a0a] rounded-lg px-4 h-9 cursor-pointer">
                 <Plus size={14} className="text-white" />
                 <span className="text-[13px] font-medium text-white font-['Noto_Sans_SC']">安装技能</span>
@@ -60,90 +54,35 @@ export function CoworkSkills({ onNavigate }: CoworkSkillsProps) {
           </div>
 
           {/* Tabs */}
-          <div className="flex items-center gap-1 w-full">
+          <div className="flex items-center gap-1 w-full flex-wrap">
             {tabs.map((tab, i) => (
-              <div
-                key={tab}
-                className={`flex items-center rounded-md px-3.5 py-1.5 cursor-pointer ${i === 0 ? 'bg-[#f5f5f5]' : ''}`}
-              >
-                <span
-                  className={`text-[13px] font-['Noto_Sans_SC'] ${
-                    i === 0 ? 'text-[#0a0a0a] font-medium' : 'text-[#737373] font-normal'
-                  }`}
-                >
+              <div key={tab} className={`flex items-center rounded-md px-3.5 py-1.5 cursor-pointer ${i === 0 ? 'bg-[#f5f5f5]' : ''}`}>
+                <span className={`text-[13px] font-['Noto_Sans_SC'] ${i === 0 ? 'text-[#0a0a0a] font-medium' : 'text-[#737373]'}`}>
                   {tab}
                 </span>
               </div>
             ))}
           </div>
 
-          {/* Scroll Area */}
-          <div className="flex-1 flex flex-col gap-5 overflow-auto">
-            {/* Banners */}
-            <div className="flex gap-4 w-full">
-              <div
-                className="rounded-xl overflow-hidden relative"
-                style={{
-                  width: 546,
-                  height: 160,
-                  background: 'linear-gradient(180deg, #E8F4FD 0%, #D6ECFA 100%)',
-                  flexShrink: 0,
-                }}
-              >
-                <span
-                  className="absolute text-xl font-bold text-[#0a0a0a] font-['Noto_Sans_SC']"
-                  style={{ left: 31, top: 50 }}
-                >
-                  为你精选的职场技能
-                </span>
-                <span
-                  className="absolute text-[13px] text-[#737373] font-['Noto_Sans_SC']"
-                  style={{ left: 31, top: 91 }}
-                >
-                  AI驱动的智能助手，提升你的工作效率
-                </span>
-              </div>
-              <div
-                className="flex-1 rounded-xl overflow-hidden relative"
-                style={{ height: 160, background: 'linear-gradient(180deg, #FFF3E0 0%, #FFE8CC 100%)' }}
-              >
-                <span
-                  className="absolute text-xl font-bold text-[#0a0a0a] font-['Noto_Sans_SC']"
-                  style={{ left: 27, top: 50 }}
-                >
-                  自定义你的工作流
-                </span>
-                <span
-                  className="absolute text-[13px] text-[#737373] font-['Noto_Sans_SC']"
-                  style={{ left: 27, top: 91 }}
-                >
-                  组合多个技能，打造专属工作流程
-                </span>
-              </div>
+          {/* Skill Grid */}
+          <div className="flex-1 overflow-auto">
+            <div className="flex flex-col gap-3.5">
+              {Array.from({ length: Math.ceil(skills.length / 3) }, (_, ri) => (
+                <div key={ri} className="flex gap-4">
+                  {skills.slice(ri * 3, ri * 3 + 3).map((skill) => (
+                    <div key={skill.title} className="flex-1 h-[76px] bg-[#f5f5f5] rounded-[10px] px-4 flex items-center gap-3.5 cursor-pointer">
+                      <div className="w-10 h-10 rounded-[10px] bg-white flex items-center justify-center shrink-0">
+                        <span className="text-xl">{skill.icon}</span>
+                      </div>
+                      <div className="flex flex-col gap-0.5 min-w-0">
+                        <span className="text-sm font-semibold text-[#0a0a0a] font-['Noto_Sans_SC']">{skill.title}</span>
+                        <span className="text-xs text-[#737373] font-['Noto_Sans_SC'] leading-[1.4] truncate">{skill.desc}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ))}
             </div>
-
-            {/* Skill Cards */}
-            {skillRows.map((row, ri) => (
-              <div key={ri} className="flex gap-4 w-full">
-                {row.map((card) => (
-                  <div
-                    key={card.title}
-                    className="flex-1 h-20 bg-[#f5f5f5] rounded-[10px] px-4 flex items-center gap-3.5 cursor-pointer"
-                  >
-                    <div
-                      className="w-11 h-11 rounded-[10px] flex items-center justify-center shrink-0"
-                      style={{ backgroundColor: card.iconBg }}
-                    >
-                      {card.icon}
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <span className="text-sm font-semibold text-[#0a0a0a] font-['Noto_Sans_SC']">{card.title}</span>
-                      <span className="text-xs text-[#737373] font-['Noto_Sans_SC']">{card.desc}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ))}
           </div>
         </div>
       </div>
